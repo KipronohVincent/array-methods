@@ -37,3 +37,12 @@ let detail = [
 for (const key of Object.keys(detail)) {
     console.log(detail[key]);
 }
+
+// looping through string
+
+let word = "I am a string";
+
+    for (let i = 0; i < word.length; i++) {
+        console.log(word[i]);
+    }
+
