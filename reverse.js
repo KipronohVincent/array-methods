@@ -46,3 +46,10 @@ let word = "I am a string";
         console.log(word[i]);
     }
 
+//reversing a string
+let word = "I am a string";
+
+let reversedWord = "";
+ for(let i = word.length - 1; i >= 0; i--) {
+    reversedWord += word[i];
+ }
